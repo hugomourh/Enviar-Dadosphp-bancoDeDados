@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Documento</title>
+</head>
+<body>
+<div class="fundo">
+    
+<form action="envia.php" method="POST">
+
+<h1>CADASTRO</h1>
+
+<div class="label">
+<label for="nome">Nome:</label><br>
+<input type="text" name="nome"  id="nome" maxlength="100" placeholder="Digite seu nome" required><br>
+
+
+<div class="label">
+<label for="idade">Idade:</label><br>
+<input type="number" name="idade" id="idade"  placeholder="Digite sua idade" required><br>
+
+
+
+<label for="cpf">CPF:</label><br>
+<input type="number" name="cpf" id="cpf"    title="Formato: 000.000.000-00" placeholder="Digite seu CPF" required> <br>
+
+
+<button type="submit">Enviar</button>
+
+</form>
+
+
+</div>
+
+
+
+</body>
+</html>
